@@ -1,0 +1,137 @@
+
+header,main,footer {
+    background-color: rgb(248, 239, 240);
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+
+}
+footer {
+    background-color: rgb(216, 186, 233);
+}
+/* 이미지 크기 설정 */
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+/* header의 ul설정 */
+header>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* 아이템을 여러 줄로 배치할 수 있을지를 결정하는 속성
+    1. lex-wrap: nowrap; (기본값)
+    : 한 줄에 강제로 모두 배치. 넘치면 박스 밖으로 튀어나감
+    2. flex-wrap: wrap;
+    : 공간이 부족하면 다음 줄로 자동 줄바꿈해서 배치
+    3. flex-wrap: wrap-reverse;
+    : 줄바꿈은 하는데, 아래줄이 아니라 위쪽으로 쌓임 */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    width: 100%;
+    list-style: none;
+    /* header의 li목록 앞 동그라미 제거 */
+}
+
+/* header의 li목록 */
+.ultext > a {
+    display: inline-block;
+    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    
+    width: 80px;
+    height: 40px;
+    line-height: 40px;   /* height와 동일하게 맞추기 !!!해야 글자가 중앙에 옴*/
+    margin: 14px; /*제대로 설정해줘야 띄어짐*/
+    padding-right: 20px;
+    padding-left: 20px;
+
+    color: black; /*; 잊지말것!*/    
+    background-color: rgb(216, 186, 233);
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font */
+    font-family: "Gowun Dodum", sans-serif;
+    font-style: normal;    
+}
+
+h4 {
+    font-family: "Gowun Batang", serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    background-color: white;
+    border-radius: 20px;
+    border: solid 2px rgb(216, 186, 233);
+
+    width: 80%;
+    height: 300px;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+section > div {
+    display: flex;
+    padding:15px
+}
+
+section > h2 {
+    margin: 10px;
+    padding: 10px;
+
+}
+span { 
+    font-weight: bold;
+}
+
+p {
+    margin: 50px;
+}
+
+
+
+footer > ul > li {
+    list-style: none;
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+
+}
+
+footer>ul {
+    width: 80%;
+    text-align: center;
+}
+
+footer>ul>li{
+    margin: 10px;
+}
+
+article {
+    width: 100%;
+    padding:30px;
+    text-align: center;
+    margin: 10px;
+}
