@@ -135,3 +135,10 @@ article {
     text-align: center;
     margin: 10px;
 }
+
+/* 마우스가 놓이면 */
+.ultext > a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
