@@ -1,11 +1,14 @@
-body {background-color: white ;
+body {
+    background-color: white;
 
 }
 
-header, main, footer {
-    background-color:#E0FFFF;
+header,
+main,
+footer {
+    background-color: #E0FFFF;
     border-radius: 10px;
-    
+
     width: 80%;
     margin: 10px auto;
     padding: 20px;
@@ -32,30 +35,64 @@ h1 {
 
 
 /* 하이퍼링크 밑줄 삭제 */
-.footer-container a{
+.left a {
     text-decoration: none;
     color: black;
 }
 
-/* 이미지 크기 조정 */
-img{
-    width: 200px;
-    border-radius: 10px;
+h2 a {
+    text-decoration: none;
+    color: black;
 }
 
 
-section .left {
+footer section {
+      flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+
+h3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    text-align: center;  /* 가운데 정렬 */
     align-items: flex-start;
-    text-align: center;
 
-    width: 50%;
-  padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    margin-right: 350px;
     border-radius: 10px;
-    background-color: white;
-      gap: 10px;
+    background-color: #394cf7a4;
 
+    height: 50px;
+    line-height: 50px;   /* height와 동일하게 맞추기 !!!해야 글자가 중앙에 옴*/
+     */
+    gap: 10px;
+}
+
+
+
+footer .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    gap: 5px;
+    margin-right: 20px;
+    margin-left: 0px;
+    text-align: right;
+
+}
+
+
+/* 이미지 크기 조정 */
+img {
+    margin-left: 100px;
+    width: 230px;
+    border-radius: 10px;
 }
 
