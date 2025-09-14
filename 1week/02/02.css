@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #b94dd4;
+    color: white;
+    border-radius: 20px;
+
+    width: 80%;
+    margin: 10px auto; /* 가운데 정렬하기 위해선 auto 붙여야 함 */
+    padding: 20px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+main, footer {
+    background-color: #ecc0f79f;
+    color: black;
+    border-radius: 10px;
+    
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
