@@ -5,10 +5,11 @@ body {
 header {
     background-color: #b94dd4;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
 
     width: 80%;
-    margin: 10px auto; /* 가운데 정렬하기 위해선 auto 붙여야 함 */
+    margin: 20px auto;
+    /* 가운데 정렬하기 위해선 auto 붙여야 함 */
     padding: 20px;
 
     text-align: center;
@@ -16,16 +17,61 @@ header {
     justify-content: center;
 }
 
-main, footer {
+main {
     background-color: #ecc0f79f;
     color: black;
     border-radius: 10px;
-    
+
     width: 80%;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 20px;
 
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+
+button {
+    background-color: #543563;
+    /*배경색*/
+    border: none;
+    /*테두리제거*/
+    color: white;
+    border-radius: 10px;
+    width: 15%;
+    height: 30px;
+    margin: 40px;
+}
+
+
+footer {
+    background-color: #eca1fffb;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+ul {
+    display: flex;            /* inline-flex 대신 flex */
+    list-style: none;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul> li{
+     background-color: #543563; /* 버튼 배경 */
+    border-radius: 10px;
+    padding: 4px 15px;
+    margin-left: 10px;  
+    }
+
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
 }
