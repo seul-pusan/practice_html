@@ -81,3 +81,8 @@ ul>li>a {
     color: white;
     font-size: small;
 }
+
+
+button:hover{
+    background-color: #eca1fffb;
+}
