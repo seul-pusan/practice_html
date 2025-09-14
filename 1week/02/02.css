@@ -33,7 +33,7 @@ main {
 
 
 button {
-    background-color: #543563;
+    background-color: #633555;
     /*배경색*/
     border: none;
     /*테두리제거*/
@@ -48,7 +48,7 @@ button {
 
 
 footer {
-    background-color: #eca1fffb;
+    background-color: #b94dd4;
     border-radius: 10px;
     width: 80%;
     margin: 20px auto;
@@ -68,7 +68,7 @@ ul {
 }
 
 ul>li {
-    background-color: #543563;
+    background-color: #633555;
     /* 버튼 배경 */
     border-radius: 10px;
     padding: 4px 15px;
@@ -84,5 +84,13 @@ ul>li>a {
 
 
 button:hover{
-    background-color: #eca1fffb;
+    background-color: #de5bfffb;
+}
+
+ul>li:hover{
+    background-color: #ecc0f79f;
+    color: black;
+}
+ul>li>a:hover{
+    color: black;
 }
