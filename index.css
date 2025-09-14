@@ -45,11 +45,12 @@ main {
     color: black;
 }
 
-h2 a {
+h2, h3 a {
     text-decoration: none;
     color: black;
   font-family: "Gowun Dodum", sans-serif;
 }
+
 
 
 footer section {
@@ -61,10 +62,10 @@ footer section {
 }
 
 
-h3 {
+/* h3 {
     display: flex;
     flex-direction: column;
-    text-align: center;  /* 가운데 정렬 */
+    text-align: center;
     align-items: flex-start;
 
     padding-right: 40px;
@@ -75,14 +76,13 @@ h3 {
 
 
     height: 50px;
-    line-height: 50px;   /* height와 동일하게 맞추기 !!!해야 글자가 중앙에 옴*/
-     */
+    line-height: 50px;  /* height와 동일하게 맞추기 !!!해야 글자가 중앙에 옴
     gap: 10px;
-}
+} */
 
-footer .left {
+/* footer .left {
     margin-right: 70px;
-}
+} */
 
 footer .info {
     display: flex;
